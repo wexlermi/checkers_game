@@ -1,0 +1,50 @@
+Metrowerks RAD Data V 3
+BeginClasses
+    {9BE3D9E0-166E-11D1-B2D8-0060081C5489} "#base-object-class"
+    {5FA17216-8612-11D1-B2AD-006008A5C0A5} "Checkers"
+EndClasses
+BeginObject Checkers "Checkers"
+    BeginProperties
+        location = "0, 0"
+        layout = <none>
+        size = "651, 706"
+    EndProperties
+    BeginInternalProperties
+        UseSwing 11 = -1
+        IsApplet 11 = -1
+        InfoInFiles 11 = -1
+        Description 8 = "Mike Wexler"
+        Title 8 = Checkers
+        HTML_FileName 8 = "G:\\Documents\\Checkers\\Checkers.html"
+    EndInternalProperties
+    BeginEventConnections
+        BeginEventConnection {796E35A1-9372-11D2-9A19-00104B70C619}
+            SourcePath = "\\\\Checkers"
+            SinkPath = "\\\\Checkers"
+            EventName = mouseClicked
+            EventSetName = mouse
+            HandlerName = thisMouseClicked
+        EndEventConnection
+        BeginEventConnection {796E35A1-9372-11D2-9A19-00104B70C619}
+            SourcePath = "\\\\Checkers"
+            SinkPath = "\\\\Checkers"
+            EventName = mouseDragged
+            EventSetName = mouseMotion
+            HandlerName = thisMouseDragged
+        EndEventConnection
+        BeginEventConnection {796E35A1-9372-11D2-9A19-00104B70C619}
+            SourcePath = "\\\\Checkers"
+            SinkPath = "\\\\Checkers"
+            EventName = mouseReleased
+            EventSetName = mouse
+            HandlerName = thisMouseReleased
+        EndEventConnection
+        BeginEventConnection {796E35A1-9372-11D2-9A19-00104B70C619}
+            SourcePath = "\\\\Checkers"
+            SinkPath = "\\\\Checkers"
+            EventName = mousePressed
+            EventSetName = mouse
+            HandlerName = thisMousePressed
+        EndEventConnection
+    EndEventConnections
+EndObject
